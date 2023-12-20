@@ -1,0 +1,1634 @@
+[
+    {
+        "id": 1,
+        "short_name": "Прямая",
+        "name": "Футболка прямая",
+        "start_price": "1300",
+        "short_desc": "100% хлопок",
+        "desc": "Футболка из 100% хлопка премиум качества. Прямой фасон, не облегает, сидит свободно. ",
+        "image_url": "assets/media/img/std_tshirt.png",
+        "sizes": [
+            {
+                "name": "S"
+            },
+            {
+                "name": "M"
+            },
+            {
+                "name": "L"
+            },
+            {
+                "name": "XL"
+            } 
+        ],
+        "defaults": [
+            {
+                "name": "Вырез",
+                "type": "Вариант 1",
+                "model_name": "bodyNeck",
+                "model_type": "neck",
+                "color": "#000000"
+            },
+            {
+                "name": "Рукава",
+                "type": "Вариант 1",
+                "model_name": "leftArm",
+                "model_type": "straight",
+                "color": "#ffffff"
+            },
+            {
+                "name": "Рукава",
+                "type": "Вариант 1",
+                "model_name": "rightArm",
+                "model_type": "straight",
+                "color": "#ffffff"
+            },
+            {
+                "name": "Передняя часть",
+                "type": "Вариант 1",
+                "model_name": "bodyFront",
+                "model_type": "circle",
+                "color": "#ffffff"
+            },
+            {
+                "name": "Задняя часть",
+                "type": "Вариант 1",
+                "model_name": "bodyBack",
+                "model_type": "circle",
+                "color": "#ffffff"
+            }
+        ],
+        "settings": {
+            "elements": [
+                {
+                    "name": "Левый Рукав",
+                    "model_name": "leftArm",
+                    "options": [
+                        {
+                            "name": "Большие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Средние",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "medium"
+                        },
+                        {
+                            "name": "Короткие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "small"
+                        }
+                    ]
+                },
+                {
+                    "name": "Правый Рукав",
+                    "model_name": "rightArm",
+                    "options": [
+                        {
+                            "name": "Большие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Средние",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "medium"
+                        },
+                        {
+                            "name": "Короткие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "small"
+                        }
+                    ]
+                },
+                {
+                    "name": "Вырез",
+                    "model_name": "bodyNeck",
+                    "options": [
+                        {
+                            "name": "Вырез 1",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "neck"
+                        },
+                        {
+                            "name": "Вырез 2",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "neck_2"
+                        }
+                    ]
+                },
+                {
+                    "name": "Перед",
+                    "model_name": "bodyFront",
+                    "options": [
+                        {
+                            "name": "Стандартный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "standart"
+                        },
+                        {
+                            "name": "Длинный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Круглый",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "circle"
+                        }
+                    ]
+                },
+                {
+                    "name": "Спина",
+                    "model_name": "bodyBack",
+                    "options": [
+                        {
+                            "name": "Стандартный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "standart"
+                        },
+                        {
+                            "name": "Длинный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Круглый",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "circle"
+                        }
+                    ]
+                }
+            ],
+            "colors": [
+                {
+                    "name": "Белый",
+                    "hex": "#ffffff"
+                },
+                {
+                    "name": "Черный",
+                    "hex": "#000000"
+                },
+                {
+                    "name": "Оранжевый",
+                    "hex": "#ffb833"
+                },
+                {
+                    "name": "Серый",
+                    "hex": "#333333"
+                },
+                {
+                    "name": "Светло-серый",
+                    "hex": "#bbbbbb"
+                },
+                {
+                    "name": "Синий",
+                    "hex": "#007bff"
+                },
+                {
+                    "name": "Красный",
+                    "hex": "#ff0000"
+                }
+            ],
+            "pictures": [
+                {
+                    "name": "Принт такой-то",
+                    "price": 120,
+                    "image_url": "assets/media/img/std_tshirt.png",
+                    "type": "11",
+                    "model_identificator": "Some problems with understaning this now",
+                    "location": "front or back, or something like it. I dont know now, will it be model or just picture and who will do this part"
+                },
+                {
+                    "name": "Принт такой-то 2",
+                    "price": 120,
+                    "type": "11",
+                    "image_url": "assets/media/img/std_tshirt.png",
+                    "model_identificator": "Some problems with understaning this now",
+                    "location": "front or back, or something like it. I dont know now, will it be model or just picture and who will do this part"
+                }
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "short_name": "Приталенная",
+        "name": "Футболка приталенная",
+        "start_price": "1700",
+        "short_desc": "100% хлопок",
+        "desc": "Футболка из 100% хлопка премиум качества. Прямой фасон, не облегает, сидит свободно. ",
+        "image_url": "assets/media/img/std_tshirt.png",
+        "sizes": [
+            {
+                "name": "S"
+            },
+            {
+                "name": "M"
+            },
+            {
+                "name": "L"
+            },
+            {
+                "name": "XL"
+            }
+        ],
+        "defaults": [
+            {
+                "model_name": "neckline",
+                "model_type": "cutout_2",
+                "color": "#ffffff"
+            },
+            {
+                "model_name": "sleeves",
+                "model_type": "sleeves_short",
+                "color": "#ffffff"
+            }
+        ],
+        "settings": {
+            "elements": [
+                {
+                    "name": "Левый Рукав",
+                    "model_name": "leftArm",
+                    "options": [
+                        {
+                            "name": "Средние",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "medium"
+                        },
+                        {
+                            "name": "Короткие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "small"
+                        }
+                    ]
+                },
+                {
+                    "name": "Правый Рукав",
+                    "model_name": "rightArm",
+                    "options": [
+                        {
+                            "name": "Средние",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "medium"
+                        },
+                        {
+                            "name": "Короткие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "small"
+                        }
+                    ]
+                },
+                {
+                    "name": "Вырез",
+                    "model_name": "bodyNeck",
+                    "options": [
+                        {
+                            "name": "Вырез 1",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "neck"
+                        },
+                        {
+                            "name": "Вырез 2",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "neck_2"
+                        }
+                    ]
+                },
+                {
+                    "name": "Перед",
+                    "model_name": "bodyFront",
+                    "options": [
+                        {
+                            "name": "Стандартный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "standart"
+                        },
+                        {
+                            "name": "Круглый",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "circle"
+                        }
+                    ]
+                },
+                {
+                    "name": "Спина",
+                    "model_name": "bodyBack",
+                    "options": [
+                        {
+                            "name": "Стандартный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "standart"
+                        },
+                        {
+                            "name": "Круглый",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "circle"
+                        }
+                    ]
+                }
+            ],
+            "colors": [
+                {
+                    "name": "Белый",
+                    "hex": "#ffffff"
+                },
+                {
+                    "name": "Черный",
+                    "hex": "#000000"
+                },
+                {
+                    "name": "Оранжевый",
+                    "hex": "#ffb833"
+                },
+                {
+                    "name": "Серый",
+                    "hex": "#333333"
+                },
+                {
+                    "name": "Светло-серый",
+                    "hex": "#bbbbbb"
+                },
+                {
+                    "name": "Синий",
+                    "hex": "#007bff"
+                },
+                {
+                    "name": "Красный",
+                    "hex": "#ff0000"
+                }
+            ],
+            "pictures": [
+                {
+                    "name": "Принт такой-то",
+                    "price": 120,
+                    "image_url": "assets/media/img/std_tshirt.png",
+                    "model_identificator": "Some problems with understaning this now",
+                    "location": "front or back, or something like it. I dont know now, will it be model or just picture and who will do this part"
+                },
+                {
+                    "name": "Принт такой-то 2",
+                    "price": 120,
+                    "image_url": "assets/media/img/std_tshirt.png",
+                    "model_identificator": "Some problems with understaning this now",
+                    "location": "front or back, or something like it. I dont know now, will it be model or just picture and who will do this part"
+                }
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "short_name": "Черно-белая",
+        "name": "Футболка приталенная",
+        "start_price": "1300",
+        "short_desc": "100% хлопок",
+        "desc": "Футболка из 100% хлопка премиум качества. Прямой фасон, не облегает, сидит свободно. ",
+        "image_url": "assets/media/img/std_tshirt.png",
+        "sizes": [
+            {
+                "name": "S"
+            },
+            {
+                "name": "M"
+            },
+            {
+                "name": "L"
+            },
+            {
+                "name": "XL"
+            }
+        ],
+        "defaults": [
+            {
+                "model_name": "neckline",
+                "model_type": "cutout_2",
+                "color": "#ffffff"
+            },
+            {
+                "model_name": "sleeves",
+                "model_type": "sleeves_short",
+                "color": "#000000"
+            }
+        ],
+        "settings": {
+            "elements": [
+                {
+                    "name": "Левый Рукав",
+                    "model_name": "leftArm",
+                    "options": [
+                        {
+                            "name": "Средние",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "medium"
+                        },
+                        {
+                            "name": "Короткие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "small"
+                        }
+                    ]
+                },
+                {
+                    "name": "Правый Рукав",
+                    "model_name": "rightArm",
+                    "options": [
+                        {
+                            "name": "Средние",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "medium"
+                        },
+                        {
+                            "name": "Короткие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "small"
+                        }
+                    ]
+                },
+                {
+                    "name": "Вырез",
+                    "model_name": "bodyNeck",
+                    "options": [
+                        {
+                            "name": "Вырез 1",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "neck"
+                        }
+                    ]
+                },
+                {
+                    "name": "Перед",
+                    "model_name": "bodyFront",
+                    "options": [
+                        {
+                            "name": "Стандартный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "standart"
+                        },
+                        {
+                            "name": "Длинный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Круглый",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "circle"
+                        }
+                    ]
+                },
+                {
+                    "name": "Спина",
+                    "model_name": "bodyBack",
+                    "options": [
+                        {
+                            "name": "Стандартный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "standart"
+                        },
+                        {
+                            "name": "Длинный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Круглый",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "circle"
+                        }
+                    ]
+                }
+            ],
+            "colors": [
+                {
+                    "name": "Белый",
+                    "hex": "#ffffff"
+                },
+                {
+                    "name": "Черный",
+                    "hex": "#000000"
+                },
+                {
+                    "name": "Оранжевый",
+                    "hex": "#ffb833"
+                },
+                {
+                    "name": "Серый",
+                    "hex": "#333333"
+                },
+                {
+                    "name": "Светло-серый",
+                    "hex": "#bbbbbb"
+                },
+                {
+                    "name": "Синий",
+                    "hex": "#007bff"
+                },
+                {
+                    "name": "Красный",
+                    "hex": "#ff0000"
+                }
+            ],
+            "pictures": [
+                {
+                    "name": "Принт такой-то",
+                    "price": 120,
+                    "image_url": "assets/media/img/std_tshirt.png",
+                    "model_identificator": "Some problems with understaning this now",
+                    "location": "front or back, or something like it. I dont know now, will it be model or just picture and who will do this part"
+                },
+                {
+                    "name": "Принт такой-то 2",
+                    "price": 120,
+                    "image_url": "assets/media/img/std_tshirt.png",
+                    "model_identificator": "Some problems with understaning this now",
+                    "location": "front or back, or something like it. I dont know now, will it be model or just picture and who will do this part"
+                }
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "short_name": "Серая",
+        "name": "Футболка приталенная",
+        "start_price": "1300",
+        "short_desc": "100% хлопок",
+        "desc": "Футболка из 100% хлопка премиум качества. Прямой фасон, не облегает, сидит свободно. ",
+        "image_url": "assets/media/img/std_tshirt.png",
+        "sizes": [
+            {
+                "name": "S"
+            },
+            {
+                "name": "M"
+            },
+            {
+                "name": "L"
+            },
+            {
+                "name": "XL"
+            }
+        ],
+        "defaults": [
+            {
+                "model_name": "neckline",
+                "model_type": "cutout_2",
+                "color": "#333333"
+            },
+            {
+                "model_name": "sleeves",
+                "model_type": "sleeves_short",
+                "color": "#bbbbbb"
+            }
+        ],
+        "settings": {
+            "elements": [
+                {
+                    "name": "Левый Рукав",
+                    "model_name": "leftArm",
+                    "options": [
+                        {
+                            "name": "Большие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Средние",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "medium"
+                        },
+                        {
+                            "name": "Короткие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "small"
+                        }
+                    ]
+                },
+                {
+                    "name": "Правый Рукав",
+                    "model_name": "rightArm",
+                    "options": [
+                        {
+                            "name": "Большие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Средние",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "medium"
+                        },
+                        {
+                            "name": "Короткие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "small"
+                        }
+                    ]
+                },
+                {
+                    "name": "Вырез",
+                    "model_name": "bodyNeck",
+                    "options": [
+                        {
+                            "name": "Вырез 1",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "neck"
+                        },
+                        {
+                            "name": "Вырез 2",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "neck_2"
+                        }
+                    ]
+                },
+                {
+                    "name": "Перед",
+                    "model_name": "bodyFront",
+                    "options": [
+                        {
+                            "name": "Стандартный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "standart"
+                        },
+                        {
+                            "name": "Длинный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Круглый",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "circle"
+                        }
+                    ]
+                },
+                {
+                    "name": "Спина",
+                    "model_name": "bodyBack",
+                    "options": [
+                        {
+                            "name": "Стандартный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "standart"
+                        },
+                        {
+                            "name": "Длинный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Круглый",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "circle"
+                        }
+                    ]
+                }
+            ],
+            "colors": [
+                {
+                    "name": "Белый",
+                    "hex": "#ffffff"
+                },
+                {
+                    "name": "Черный",
+                    "hex": "#000000"
+                },
+                {
+                    "name": "Оранжевый",
+                    "hex": "#ffb833"
+                },
+                {
+                    "name": "Серый",
+                    "hex": "#333333"
+                },
+                {
+                    "name": "Светло-серый",
+                    "hex": "#bbbbbb"
+                },
+                {
+                    "name": "Синий",
+                    "hex": "#007bff"
+                },
+                {
+                    "name": "Красный",
+                    "hex": "#ff0000"
+                }
+            ],
+            "pictures": [
+                {
+                    "name": "Принт такой-то",
+                    "price": 120,
+                    "image_url": "assets/media/img/std_tshirt.png",
+                    "model_identificator": "Some problems with understaning this now",
+                    "location": "front or back, or something like it. I dont know now, will it be model or just picture and who will do this part"
+                },
+                {
+                    "name": "Принт такой-то 2",
+                    "price": 120,
+                    "image_url": "assets/media/img/std_tshirt.png",
+                    "model_identificator": "Some problems with understaning this now",
+                    "location": "front or back, or something like it. I dont know now, will it be model or just picture and who will do this part"
+                }
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "short_name": "Оверсайз",
+        "name": "Худи Оверсайз",
+        "start_price": "1400",
+        "short_desc": "100% хлопок",
+        "desc": "Футболка из 100% хлопка премиум качества. Прямой фасон, не облегает, сидит свободно. ",
+        "image_url": "assets/media/img/std_tshirt.png",
+        "sizes": [
+            {
+                "name": "S"
+            },
+            {
+                "name": "M"
+            },
+            {
+                "name": "L"
+            },
+            {
+                "name": "XL"
+            }
+        ],
+        "defaults": [
+            {
+                "model_name": "neckline",
+                "model_type": "cutout_2",
+                "color": "#ffffff"
+            },
+            {
+                "model_name": "sleeves",
+                "model_type": "sleeves_long",
+                "color": "#000000"
+            }
+        ],
+        "settings": {
+            "elements": [
+                {
+                    "name": "Левый Рукав",
+                    "model_name": "leftArm",
+                    "options": [
+                        {
+                            "name": "Большие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Средние",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "medium"
+                        },
+                        {
+                            "name": "Короткие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "small"
+                        }
+                    ]
+                },
+                {
+                    "name": "Правый Рукав",
+                    "model_name": "rightArm",
+                    "options": [
+                        {
+                            "name": "Большие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Средние",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "medium"
+                        },
+                        {
+                            "name": "Короткие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "small"
+                        }
+                    ]
+                },
+                {
+                    "name": "Вырез",
+                    "model_name": "bodyNeck",
+                    "options": [
+                        {
+                            "name": "Вырез 1",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "neck"
+                        },
+                        {
+                            "name": "Вырез 2",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "neck_2"
+                        }
+                    ]
+                },
+                {
+                    "name": "Перед",
+                    "model_name": "bodyFront",
+                    "options": [
+                        {
+                            "name": "Стандартный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "standart"
+                        },
+                        {
+                            "name": "Длинный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Круглый",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "circle"
+                        }
+                    ]
+                },
+                {
+                    "name": "Спина",
+                    "model_name": "bodyBack",
+                    "options": [
+                        {
+                            "name": "Стандартный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "standart"
+                        },
+                        {
+                            "name": "Длинный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Круглый",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "circle"
+                        }
+                    ]
+                }
+            ],
+            "colors": [
+                {
+                    "name": "Белый",
+                    "hex": "#ffffff"
+                },
+                {
+                    "name": "Черный",
+                    "hex": "#000000"
+                },
+                {
+                    "name": "Оранжевый",
+                    "hex": "#ffb833"
+                },
+                {
+                    "name": "Серый",
+                    "hex": "#333333"
+                },
+                {
+                    "name": "Светло-серый",
+                    "hex": "#bbbbbb"
+                },
+                {
+                    "name": "Синий",
+                    "hex": "#007bff"
+                },
+                {
+                    "name": "Красный",
+                    "hex": "#ff0000"
+                }
+            ],
+            "pictures": [
+                {
+                    "name": "Принт такой-то",
+                    "price": 120,
+                    "image_url": "assets/media/img/std_tshirt.png",
+                    "model_identificator": "Some problems with understaning this now",
+                    "location": "front or back, or something like it. I dont know now, will it be model or just picture and who will do this part"
+                },
+                {
+                    "name": "Принт такой-то 2",
+                    "price": 120,
+                    "image_url": "assets/media/img/std_tshirt.png",
+                    "model_identificator": "Some problems with understaning this now",
+                    "location": "front or back, or something like it. I dont know now, will it be model or just picture and who will do this part"
+                }
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "short_name": "Оранжево-белый",
+        "name": "Оранжевый-белый Худи Оверсайз",
+        "start_price": "1400",
+        "short_desc": "100% хлопок",
+        "desc": "Футболка из 100% хлопка премиум качества. Прямой фасон, не облегает, сидит свободно. ",
+        "image_url": "assets/media/img/std_tshirt.png",
+        "sizes": [
+            {
+                "name": "S"
+            },
+            {
+                "name": "M"
+            },
+            {
+                "name": "L"
+            },
+            {
+                "name": "XL"
+            }
+        ],
+        "defaults": [
+            {
+                "model_name": "neckline",
+                "model_type": "cutout_2",
+                "color": "#ffb833"
+            },
+            {
+                "model_name": "sleeves",
+                "model_type": "sleeves_long",
+                "color": "#ffffff"
+            }
+        ],
+        "settings": {
+            "elements": [
+                {
+                    "name": "Левый Рукав",
+                    "model_name": "leftArm",
+                    "options": [
+                        {
+                            "name": "Большие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Средние",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "medium"
+                        }
+                    ]
+                },
+                {
+                    "name": "Правый Рукав",
+                    "model_name": "rightArm",
+                    "options": [
+                        {
+                            "name": "Большие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Средние",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "medium"
+                        }
+                    ]
+                },
+                {
+                    "name": "Вырез",
+                    "model_name": "bodyNeck",
+                    "options": [
+                        {
+                            "name": "Вырез 1",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "neck"
+                        },
+                        {
+                            "name": "Вырез 2",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "neck_2"
+                        }
+                    ]
+                },
+                {
+                    "name": "Перед",
+                    "model_name": "bodyFront",
+                    "options": [
+                        {
+                            "name": "Стандартный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "standart"
+                        },
+                        {
+                            "name": "Длинный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Круглый",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "circle"
+                        }
+                    ]
+                },
+                {
+                    "name": "Спина",
+                    "model_name": "bodyBack",
+                    "options": [
+                        {
+                            "name": "Стандартный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "standart"
+                        },
+                        {
+                            "name": "Длинный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Круглый",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "circle"
+                        }
+                    ]
+                }
+            ],
+            "colors": [
+                {
+                    "name": "Белый",
+                    "hex": "#ffffff"
+                },
+                {
+                    "name": "Черный",
+                    "hex": "#000000"
+                },
+                {
+                    "name": "Оранжевый",
+                    "hex": "#ffb833"
+                },
+                {
+                    "name": "Серый",
+                    "hex": "#333333"
+                },
+                {
+                    "name": "Светло-серый",
+                    "hex": "#bbbbbb"
+                },
+                {
+                    "name": "Синий",
+                    "hex": "#007bff"
+                },
+                {
+                    "name": "Красный",
+                    "hex": "#ff0000"
+                }
+            ],
+            "pictures": [
+                {
+                    "name": "Принт такой-то",
+                    "price": 120,
+                    "image_url": "assets/media/img/std_tshirt.png",
+                    "model_identificator": "Some problems with understaning this now",
+                    "location": "front or back, or something like it. I dont know now, will it be model or just picture and who will do this part"
+                },
+                {
+                    "name": "Принт такой-то 2",
+                    "price": 120,
+                    "image_url": "assets/media/img/std_tshirt.png",
+                    "model_identificator": "Some problems with understaning this now",
+                    "location": "front or back, or something like it. I dont know now, will it be model or just picture and who will do this part"
+                }
+            ]
+        }
+    },
+    {
+        "id": 7,
+        "short_name": "Черный",
+        "name": "Черный Худи Оверсайз",
+        "start_price": "1400",
+        "short_desc": "100% хлопок",
+        "desc": "Футболка из 100% хлопка премиум качества. Прямой фасон, не облегает, сидит свободно. ",
+        "image_url": "assets/media/img/std_tshirt.png",
+        "sizes": [
+            {
+                "name": "S"
+            },
+            {
+                "name": "M"
+            },
+            {
+                "name": "L"
+            },
+            {
+                "name": "XL"
+            }
+        ],
+        "defaults": [
+            {
+                "model_name": "neckline",
+                "model_type": "cutout_2",
+                "color": "#000000"
+            },
+            {
+                "model_name": "sleeves",
+                "model_type": "sleeves_long",
+                "color": "#000000"
+            }
+        ],
+        "settings": {
+            "elements": [
+                {
+                    "name": "Левый Рукав",
+                    "model_name": "leftArm",
+                    "options": [
+                        {
+                            "name": "Большие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Средние",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "medium"
+                        }
+                    ]
+                },
+                {
+                    "name": "Правый Рукав",
+                    "model_name": "rightArm",
+                    "options": [
+                        {
+                            "name": "Большие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Средние",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "medium"
+                        }
+                    ]
+                },
+                {
+                    "name": "Вырез",
+                    "model_name": "bodyNeck",
+                    "options": [
+                        {
+                            "name": "Вырез 1",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "neck"
+                        }
+                    ]
+                },
+                {
+                    "name": "Перед",
+                    "model_name": "bodyFront",
+                    "options": [
+                        {
+                            "name": "Стандартный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "standart"
+                        },
+                        {
+                            "name": "Длинный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Круглый",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "circle"
+                        }
+                    ]
+                },
+                {
+                    "name": "Спина",
+                    "model_name": "bodyBack",
+                    "options": [
+                        {
+                            "name": "Стандартный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "standart"
+                        },
+                        {
+                            "name": "Длинный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Круглый",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "circle"
+                        }
+                    ]
+                }
+            ],
+            "colors": [
+                {
+                    "name": "Белый",
+                    "hex": "#ffffff"
+                },
+                {
+                    "name": "Черный",
+                    "hex": "#000000"
+                },
+                {
+                    "name": "Оранжевый",
+                    "hex": "#ffb833"
+                },
+                {
+                    "name": "Серый",
+                    "hex": "#333333"
+                },
+                {
+                    "name": "Светло-серый",
+                    "hex": "#bbbbbb"
+                },
+                {
+                    "name": "Синий",
+                    "hex": "#007bff"
+                },
+                {
+                    "name": "Красный",
+                    "hex": "#ff0000"
+                }
+            ],
+            "pictures": [
+                {
+                    "name": "Принт такой-то",
+                    "price": 120,
+                    "image_url": "assets/media/img/std_tshirt.png",
+                    "model_identificator": "Some problems with understaning this now",
+                    "location": "front or back, or something like it. I dont know now, will it be model or just picture and who will do this part"
+                },
+                {
+                    "name": "Принт такой-то 2",
+                    "price": 120,
+                    "image_url": "assets/media/img/std_tshirt.png",
+                    "model_identificator": "Some problems with understaning this now",
+                    "location": "front or back, or something like it. I dont know now, will it be model or just picture and who will do this part"
+                }
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "short_name": "Красивый",
+        "name": "Красивый Худи Оверсайз",
+        "start_price": "1400",
+        "short_desc": "100% хлопок",
+        "desc": "Худи из 100% хлопка премиум качества. Прямой фасон, не облегает, сидит свободно. Худи из 100% хлопка премиум качества. Прямой фасон, не облегает, сидит свободно.",
+        "image_url": "assets/media/img/std_tshirt.png",
+        "sizes": [
+            {
+                "name": "S"
+            },
+            {
+                "name": "M"
+            },
+            {
+                "name": "L"
+            },
+            {
+                "name": "XL"
+            }
+        ],
+        "defaults": [
+            {
+                "model_name": "neckline",
+                "model_type": "cutout_1",
+                "color": "#ffffff"
+            },
+            {
+                "model_name": "sleeves",
+                "model_type": "sleeves_long",
+                "color": "#ffffff"
+            }
+        ],
+        "settings": {
+            "elements": [
+                {
+                    "name": "Левый Рукав",
+                    "model_name": "leftArm",
+                    "options": [
+                        {
+                            "name": "Большие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Средние",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "medium"
+                        },
+                        {
+                            "name": "Короткие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "small"
+                        }
+                    ]
+                },
+                {
+                    "name": "Правый Рукав",
+                    "model_name": "rightArm",
+                    "options": [
+                        {
+                            "name": "Большие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Средние",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "medium"
+                        },
+                        {
+                            "name": "Короткие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "small"
+                        }
+                    ]
+                },
+                {
+                    "name": "Вырез",
+                    "model_name": "bodyNeck",
+                    "options": [
+                        {
+                            "name": "Вырез 1",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "neck"
+                        },
+                        {
+                            "name": "Вырез 2",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "neck_2"
+                        }
+                    ]
+                },
+                {
+                    "name": "Перед",
+                    "model_name": "bodyFront",
+                    "options": [
+                        {
+                            "name": "Стандартный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "standart"
+                        },
+                        {
+                            "name": "Длинный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Круглый",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "circle"
+                        }
+                    ]
+                },
+                {
+                    "name": "Спина",
+                    "model_name": "bodyBack",
+                    "options": [
+                        {
+                            "name": "Стандартный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "standart"
+                        },
+                        {
+                            "name": "Длинный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Круглый",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "circle"
+                        }
+                    ]
+                }
+            ],
+            "colors": [
+                {
+                    "name": "Белый",
+                    "hex": "#ffffff"
+                },
+                {
+                    "name": "Черный",
+                    "hex": "#000000"
+                },
+                {
+                    "name": "Оранжевый",
+                    "hex": "#ffb833"
+                },
+                {
+                    "name": "Серый",
+                    "hex": "#333333"
+                },
+                {
+                    "name": "Светло-серый",
+                    "hex": "#bbbbbb"
+                },
+                {
+                    "name": "Синий",
+                    "hex": "#007bff"
+                },
+                {
+                    "name": "Красный",
+                    "hex": "#ff0000"
+                }
+            ],
+            "pictures": [
+                {
+                    "name": "Принт такой-то",
+                    "price": 120,
+                    "image_url": "assets/media/img/std_tshirt.png",
+                    "model_identificator": "Some problems with understaning this now",
+                    "location": "front or back, or something like it. I dont know now, will it be model or just picture and who will do this part"
+                },
+                {
+                    "name": "Принт такой-то 2",
+                    "price": 120,
+                    "image_url": "assets/media/img/std_tshirt.png",
+                    "model_identificator": "Some problems with understaning this now",
+                    "location": "front or back, or something like it. I dont know now, will it be model or just picture and who will do this part"
+                }
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "short_name": "Красивый",
+        "name": "Красивый Худи Оверсайз",
+        "start_price": "1400",
+        "short_desc": "100% хлопок",
+        "desc": "Худи из 100% хлопка премиум качества. Прямой фасон, не облегает, сидит свободно. Худи из 100% хлопка премиум качества. Прямой фасон, не облегает, сидит свободно.",
+        "image_url": "assets/media/img/std_tshirt.png",
+        "sizes": [
+            {
+                "name": "S"
+            },
+            {
+                "name": "M"
+            },
+            {
+                "name": "L"
+            },
+            {
+                "name": "XL"
+            }
+        ],
+        "defaults": [
+            {
+                "model_name": "neckline",
+                "model_type": "cutout_2",
+                "color": "#ffb833"
+            },
+            {
+                "model_name": "sleeves",
+                "model_type": "sleeves_long",
+                "color": "#ffb833"
+            }
+        ],
+        "settings": {
+            "elements": [
+                {
+                    "name": "Левый Рукав",
+                    "model_name": "leftArm",
+                    "options": [
+                        {
+                            "name": "Большие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Средние",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "medium"
+                        },
+                        {
+                            "name": "Короткие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "small"
+                        }
+                    ]
+                },
+                {
+                    "name": "Правый Рукав",
+                    "model_name": "rightArm",
+                    "options": [
+                        {
+                            "name": "Большие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Средние",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "medium"
+                        },
+                        {
+                            "name": "Короткие",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "small"
+                        }
+                    ]
+                },
+                {
+                    "name": "Вырез",
+                    "model_name": "bodyNeck",
+                    "options": [
+                        {
+                            "name": "Вырез 1",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "neck"
+                        },
+                        {
+                            "name": "Вырез 2",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "neck_2"
+                        }
+                    ]
+                },
+                {
+                    "name": "Перед",
+                    "model_name": "bodyFront",
+                    "options": [
+                        {
+                            "name": "Стандартный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "standart"
+                        },
+                        {
+                            "name": "Длинный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Круглый",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "circle"
+                        }
+                    ]
+                },
+                {
+                    "name": "Спина",
+                    "model_name": "bodyBack",
+                    "options": [
+                        {
+                            "name": "Стандартный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "standart"
+                        },
+                        {
+                            "name": "Длинный",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "long"
+                        },
+                        {
+                            "name": "Круглый",
+                            "image_url": "assets/media/img/std_tshirt.png",
+                            "model_type": "circle"
+                        }
+                    ]
+                }
+            ],
+            "colors": [
+                {
+                    "name": "Белый",
+                    "hex": "#ffffff"
+                },
+                {
+                    "name": "Черный",
+                    "hex": "#000000"
+                },
+                {
+                    "name": "Оранжевый",
+                    "hex": "#ffb833"
+                },
+                {
+                    "name": "Серый",
+                    "hex": "#333333"
+                },
+                {
+                    "name": "Светло-серый",
+                    "hex": "#bbbbbb"
+                },
+                {
+                    "name": "Синий",
+                    "hex": "#007bff"
+                },
+                {
+                    "name": "Красный",
+                    "hex": "#ff0000"
+                }
+            ],
+            "pictures": [
+                {
+                    "name": "Принт такой-то",
+                    "price": 120,
+                    "image_url": "assets/media/img/std_tshirt.png",
+                    "model_identificator": "Some problems with understaning this now",
+                    "location": "front or back, or something like it. I dont know now, will it be model or just picture and who will do this part"
+                },
+                {
+                    "name": "Принт такой-то 2",
+                    "price": 120,
+                    "image_url": "assets/media/img/std_tshirt.png",
+                    "model_identificator": "Some problems with understaning this now",
+                    "location": "front or back, or something like it. I dont know now, will it be model or just picture and who will do this part"
+                }
+            ]
+        }
+    }
+]

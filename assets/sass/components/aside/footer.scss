@@ -1,0 +1,11 @@
+.footer {
+    background: $black;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    span {
+        color: $white;
+        opacity: 0.5;
+    }
+}

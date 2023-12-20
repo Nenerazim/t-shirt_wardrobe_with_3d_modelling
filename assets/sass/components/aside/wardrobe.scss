@@ -1,0 +1,200 @@
+.aside-content {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 auto;
+    .wardrobe {
+        width: 230px;
+        min-width: 230px;
+        display: flex;
+        flex-direction: column;
+        border-right: 1px solid #f7f7f7;
+        .gender-block {
+            width: 100%;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .stack {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            .stack-content {
+                position: absolute;
+                width: 100%;
+                top: 0;
+                left: 0;
+                background: $light_grey;
+                height: calc(100% - 50px);
+                box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.15);
+                z-index: 1;
+                overflow-y: auto;
+                overflow-x: hidden;
+                -webkit-overflow-scrolling: touch;
+                -moz-overflow-scrolling: touch;
+                -ms-overflow-scrolling: touch;
+                -o-overflow-scrolling: touch;
+                .stack-top {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 15px;
+                    margin-bottom: 25px;
+                    .stack-counter {
+                        font-weight: 400;
+                        margin-top: 5px;
+                    }
+                }  
+                .add-model-tip {
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    font-weight: 400;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                    z-index: 2;
+                    background: transparent;
+                    display: flex;
+                    img {
+                        width: 22px;
+                        margin-bottom: 15px;
+                    }
+                    &.hidden {
+                        display: none;
+                    }
+                }
+                .selected-items {
+                    padding: 0 27px;
+                    .selected-item {
+                        margin-bottom: 30px;
+                        width: 100%;
+                        .main-block {
+                            background: $white;
+                            width: 100%;
+                            border-radius: 10px;
+                            padding: 11px 24px;
+                            position: relative;
+                            text-align: center;
+                            .eye-hidden {
+                                position: absolute;
+                                top: 0;
+                                right: 0;
+                                z-index: 99;
+                                &.active {
+                                    visibility: hidden;
+                                }
+                            }
+                            .wardrobe-model {
+                                width: 100%;
+                                height: 125px;
+                                margin-bottom: 8px;
+                                position: relative;
+                            }
+                            .price {
+                                font-size: 16px;
+                                font-weight: 400;
+                            }
+                            .controls {
+                                opacity: 0;
+                                position: absolute;
+                                transition: opacity .3s;
+                                left: -14px;
+                                height: 100%;
+                                top: 0;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-between;
+                                .control-btn {
+                                    width: 28px;
+                                    height: 28px;
+                                    background: $main;
+                                    border-radius: 50%;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                        .action-edit {
+                            opacity: 0;
+                            margin-top: 12px;
+                            display: flex;
+                            justify-content: center;
+                            transition: opacity .3s;
+                            button {
+                                height: 23px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                padding: 0 16px;
+                                color: $white;
+                                background: $main;
+                                border-radius: 10px;
+                                border: none;
+                                font-weight: 400;
+                                cursor: pointer;
+                            }
+                        }
+                        &:hover {
+                            .action-edit {
+                                opacity: 1;
+                            }
+                            .main-block {
+                                .controls {
+                                    opacity: 1;
+                                }
+                            }
+                        }
+                        &.active {
+                            .main-block {
+                                border: 1px solid rgba(96, 93, 89, 0.5);
+                            }
+                            .action-edit {
+                                opacity: 1; 
+                                button {
+                                    background: rgba(96, 93, 89, 0.5);
+                                } 
+                            }
+                            .main-block {
+                                .controls {
+                                    opacity: 1;
+                                }
+                            }  
+                        }
+                    }
+                }
+                &::-webkit-scrollbar {
+                    -webkit-appearance: none;
+                    width: 7px;
+                    height: 204px;
+                }
+                &::-webkit-scrollbar-thumb {
+                    background-color: rgba(208, 203, 190, 0.25);
+                    border-radius: 25px;
+                }  
+            }
+            .remove-button {
+                height: 50px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+                background: $white;
+                color: $main;
+                position: absolute;
+                cursor: pointer;
+                bottom: 0;
+                left: 0;
+                z-index: 3;
+                border-top: 1px solid #f7f7f7;
+            }
+        }
+    }
+}

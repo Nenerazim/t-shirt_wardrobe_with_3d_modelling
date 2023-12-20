@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    font-family: $main_font;
+    color: $main;
+    letter-spacing: 0.02em;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    margin: 0;
+    padding: 0;
+    &:focus {
+        outline: none;
+    }
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+#app {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    max-width: 100%;
+}
+
+.vue-dialog {
+    background-color: $main !important;
+    div {
+        color: $white !important;
+    }
+    .vue-dialog-buttons {
+        button {
+            &:hover {
+                background: #333 !important;
+            }
+        }
+    }  
+}
