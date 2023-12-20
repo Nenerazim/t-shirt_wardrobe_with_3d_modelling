@@ -1,5 +1,7 @@
 # store
 
+!!! Node version 14
+
 ## Build Setup
 
 ```bash
